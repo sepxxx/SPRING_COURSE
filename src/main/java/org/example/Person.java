@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class Person {
     private Pet pet;
 //    @Value("${person.name}")
@@ -13,7 +13,7 @@ public class Person {
 //    @Value("${person.age}")
     private int age;
 
-    @Autowired
+//    @Autowired
     Person(Pet pet) {
         this.pet = pet;
     }
@@ -31,7 +31,7 @@ public class Person {
         pet.say();
     }
 
-    @Override
+//    @Override
     public String toString() {
         return "Person{" +
                 "pet=" + pet +
