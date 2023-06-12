@@ -6,13 +6,8 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
-
-    <context:property-placeholder location="classpath:myApp.properties"/>
-    <bean id="myPet" class="org.example.Dog"> </bean>
-    <bean id="myPerson" class="org.example.Person">
-        <constructor-arg ref="myPet"/>
-        <property name="name" value="${person.name}"/>
-        <property name="age" value="${person.age}"/>
+    <bean id="myPet"
+          class="org.example.Dog"
+          scope="prototype">
     </bean>
-
 </beans>
