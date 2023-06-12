@@ -14,6 +14,7 @@ public class TestConfigJavaCode {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext acac = new AnnotationConfigApplicationContext(MyConfigNoScan.class);
         Person person = acac.getBean("personBean", Person.class);
-        person.callYourPet();
+//        person.callYourPet();
+        System.out.println(person);
     }
 }
