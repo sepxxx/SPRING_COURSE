@@ -1,4 +1,4 @@
-package aop;
+package aop.l25AdviceTypeBefore;
 
 import org.springframework.stereotype.Component;
 
