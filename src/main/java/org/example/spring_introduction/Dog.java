@@ -1,4 +1,4 @@
-package org.example;
+package org.example.spring_introduction;
 
 public class Dog implements Pet{
 

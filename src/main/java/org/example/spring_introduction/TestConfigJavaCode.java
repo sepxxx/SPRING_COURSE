@@ -1,6 +1,5 @@
-package org.example;
+package org.example.spring_introduction;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 //Урок 21 - Конфигурация с помощью Java code
