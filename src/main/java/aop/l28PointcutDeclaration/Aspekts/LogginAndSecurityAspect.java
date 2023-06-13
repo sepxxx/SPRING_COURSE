@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-public class LogginAspect {
+public class LogginAndSecurityAspect {
 
     @Pointcut("execution(public void get*())")
     private void allGetMethods(){};

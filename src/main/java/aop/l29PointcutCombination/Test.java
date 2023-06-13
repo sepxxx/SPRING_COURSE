@@ -1,15 +1,15 @@
-package aop.l28PointcutDeclaration;
+package aop.l29PointcutCombination;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-//Урок 28 - Pointcut Declaration
-//1)прописать get,return,add методы для magazine, book
-//2)для методов get и return написать pointcut, потом общий
-
-
+//Урок 29 - Pointcut Combination
 public class Test {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext acac = new AnnotationConfigApplicationContext(MyConfig.class);
         UniLibrary uniLib = acac.getBean("uniLibraryBean", UniLibrary.class);
         uniLib.getBook();
         uniLib.getMagazine();
+        uniLib.returnBook();
+        uniLib.returnMagazine();
+        uniLib.addBook();
+        uniLib.addMagazine();
     }
 }
