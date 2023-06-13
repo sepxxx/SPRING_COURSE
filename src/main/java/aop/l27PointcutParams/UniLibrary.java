@@ -1,13 +1,12 @@
-package aop.l26PointCutExpression;
+package aop.l27PointcutParams;
 
 
 import org.springframework.stereotype.Component;
 
 @Component("uniLibraryBean")
-public class UniLibrary extends Library{
-    @Override
-    public void getBook() {
-        System.out.println("Берем книгу в UniLib");
+public class UniLibrary extends Library {
+    public void getBook(Book b) {
+        System.out.println("Берем книгу в UniLib "+b.getId());
     }
 
     public void getMagazine() {

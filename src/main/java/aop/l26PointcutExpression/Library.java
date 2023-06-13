@@ -1,4 +1,4 @@
-package aop.l26PointCutExpression;
+package aop.l26PointcutExpression;
 
 public abstract class Library {
     public abstract void getBook();

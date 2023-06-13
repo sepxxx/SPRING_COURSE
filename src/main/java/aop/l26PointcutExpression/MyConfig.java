@@ -1,4 +1,4 @@
-package aop.l26PointCutExpression;
+package aop.l26PointcutExpression;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

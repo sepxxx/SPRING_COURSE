@@ -1,4 +1,4 @@
-package aop.l26PointCutExpression;
+package aop.l26PointcutExpression;
 
 
 //Урок 26 - Pointcut expression
